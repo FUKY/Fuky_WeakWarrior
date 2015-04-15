@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour {
 	void Start () {
         animator = gameObject.GetComponent<Animator>();
         animator.runtimeAnimatorController = listAnimator[state];
-        animator.SetBool("attack", attack = false);
+        animator.SetBool("attack", attack);
 	}
 	
 	void Update () {
